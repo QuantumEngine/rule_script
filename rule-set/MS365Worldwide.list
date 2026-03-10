@@ -2,10 +2,18 @@
 # REPO: https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
 # UPDATED: 2026-03-10 09:48:47
 # DOMAIN: 121
-# DOMAIN-SUFFIX: 76
+# DOMAIN-SUFFIX: 84
 # IP-CIDR: 34
 # IP-CIDR6: 59
-# TOTAL: 290
+# TOTAL: 298
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,photos.live.com
+DOMAIN-SUFFIX,skydrive.wns.windows.com
+DOMAIN-SUFFIX,storage.msn.com
 DOMAIN-SUFFIX,teams.cdn.live.net
 DOMAIN-SUFFIX,teams.live.com
 DOMAIN-SUFFIX,cloud.microsoft
@@ -103,7 +111,6 @@ DOMAIN,office.live.com
 DOMAIN,ajax.aspnetcdn.com
 DOMAIN,apis.live.net
 DOMAIN,officeapps.live.com
-DOMAIN,www.onedrive.com
 DOMAIN,account.activedirectory.windowsazure.com
 DOMAIN,accounts.accesscontrol.windows.net
 DOMAIN,adminwebservice.microsoftonline.com
