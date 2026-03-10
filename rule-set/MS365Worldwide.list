@@ -1,11 +1,13 @@
 # NAME: Microsoft 365 Worldwide (+GCC)
 # REPO: https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
 # UPDATED: 2026-03-10 09:48:47
-# DOMAIN: 120
-# DOMAIN-SUFFIX: 74
+# DOMAIN: 121
+# DOMAIN-SUFFIX: 76
 # IP-CIDR: 34
 # IP-CIDR6: 59
-# TOTAL: 287
+# TOTAL: 290
+DOMAIN-SUFFIX,teams.cdn.live.net
+DOMAIN-SUFFIX,teams.live.com
 DOMAIN-SUFFIX,cloud.microsoft
 DOMAIN-SUFFIX,static.microsoft
 DOMAIN-SUFFIX,usercontent.microsoft
@@ -80,6 +82,7 @@ DOMAIN-SUFFIX,powerapps.com
 DOMAIN-SUFFIX,powerautomate.com
 DOMAIN-SUFFIX,activity.windows.com
 DOMAIN-SUFFIX,cortana.ai
+DOMAIN,teams.events.data.microsoft.com
 DOMAIN,outlook.cloud.microsoft
 DOMAIN,outlook.office.com
 DOMAIN,outlook.office365.com
