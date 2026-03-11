@@ -1,0 +1,14 @@
+# NAME: Anthropic
+# REPO2: https://platform.claude.com/docs/en/api/ip-addresses
+# REPO1: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2026-03-11 17:05
+
+DOMAIN,cdn.usefathom.com
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
