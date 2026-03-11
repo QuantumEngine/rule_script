@@ -2,25 +2,25 @@
 # REPO3: https://tailscale.com/docs/reference/reserved-ip-addresses
 # REPO2: https://tailscale.com/docs/reference/faq/firewall-ports
 # REPO1: https://tailscale.com/docs/integrations/firewalls
-# UPDATED: 2026-03-11 18:05
+# UPDATED: 2026-03-11 18:47
 
 # 进程级规则 (彻底放行 STUN 与动态端口直连)
-PROCESS-NAME,tailscaled.exe,DIRECT,no-resolve
-PROCESS-NAME,tailscale.exe,DIRECT,no-resolve
-PROCESS-NAME,tailscaled,DIRECT,no-resolve
-PROCESS-NAME,Tailscale,DIRECT,no-resolve
-PROCESS-NAME,io.tailscale.ipn.macsys.network-extension,DIRECT,no-resolve
-  
+PROCESS-NAME,tailscaled.exe
+PROCESS-NAME,tailscale.exe
+PROCESS-NAME,tailscaled
+PROCESS-NAME,Tailscale
+PROCESS-NAME,io.tailscale.ipn.macsys.network-extension
+
 # 虚拟网段 (Overlay)
-IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
-IP-CIDR6,fd7a:115c:a1e0::/48,DIRECT,no-resolve
-  
+IP-CIDR,100.64.0.0/10,no-resolve
+IP-CIDR6,fd7a:115c:a1e0::/48,no-resolve
+
 # 官方静态服务网段 (Underlay: 控制平面与日志)
-IP-CIDR,192.200.0.0/24,DIRECT,no-resolve
-IP-CIDR6,2606:b740:49::/48,DIRECT,no-resolve
-IP-CIDR,199.165.136.0/24,DIRECT,no-resolve
-IP-CIDR6,2606:b740:1::/48,DIRECT,no-resolve
-  
+IP-CIDR,192.200.0.0/24,no-resolve
+IP-CIDR6,2606:b740:49::/48,no-resolve
+IP-CIDR,199.165.136.0/24,no-resolve
+IP-CIDR6,2606:b740:1::/48,no-resolve
+
 # 官方核心域名 (涵盖所有 derpN-all 节点与内网 MagicDNS)
-DOMAIN-SUFFIX,ts.net,DIRECT
-DOMAIN-SUFFIX,tailscale.com,DIRECT
+DOMAIN-SUFFIX,ts.net
+DOMAIN-SUFFIX,tailscale.com
