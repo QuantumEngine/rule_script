@@ -1,11 +1,12 @@
 # NAME: GoogleAI
 # REPO2: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.yaml
 # REPO1: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml
-# UPDATED: 2025-12-29 21:14
+# UPDATED: 2026-03-11 16:34
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,content-developerprofiles-pa.googleapis.com
 DOMAIN-SUFFIX,jules.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,makersuite.google.com
