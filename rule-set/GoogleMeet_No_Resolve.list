@@ -1,28 +1,31 @@
 # NAME: Google Meet
 # REPO: https://support.google.com/a/answer/1279090?hl=zh
-# UPDATED: 2026-03-10 09:35:36
-# DOMAIN: 18
-# IP-CIDR: 3
-# IP-CIDR6: 3
-# TOTAL: 24
-DOMAIN,clients2.google.com
-DOMAIN,clients4.google.com
-DOMAIN,clients6.google.com
-DOMAIN,www.gstatic.com
-DOMAIN,fonts.gstatic.com
-DOMAIN,lh3.googleusercontent.com
-DOMAIN,meetings.clients6.google.com
-DOMAIN,accounts.google.com
-DOMAIN,apis.google.com
-DOMAIN,meetings.googleapis.com
-DOMAIN,hangouts.googleapis.com
+# UPDATED: 2026-03-12 02:15
+
+# Manually Removed
+# DOMAIN-SUFFIX,apis.google.com
+# DOMAIN,clients2.google.com
+# DOMAIN,clients4.google.com
+# DOMAIN,clients6.google.com
+# DOMAIN,www.gstatic.com
+# DOMAIN,fonts.gstatic.com
+# DOMAIN,lh3.googleusercontent.com
+# DOMAIN,accounts.google.com
+# DOMAIN,apis.google.com
+# DOMAIN,apps.google.com
+# DOMAIN,docs.google.com
+# DOMAIN,www.google.com
+# DOMAIN,feedback.googleusercontent.com
+# DOMAIN,play.google.com
+
+# 核心音视频流调度与专属接口
 DOMAIN,meet.google.com
-DOMAIN,apps.google.com
-DOMAIN,docs.google.com
 DOMAIN,stream.meet.google.com
-DOMAIN,www.google.com
-DOMAIN,feedback.googleusercontent.com
-DOMAIN,play.google.com
+DOMAIN,meetings.googleapis.com
+DOMAIN,meetings.clients6.google.com
+DOMAIN,hangouts.googleapis.com
+
+# Google WebRTC 官方媒体与打洞服务器 (绝对需要 UDP 放行)
 IP-CIDR,74.125.250.0/24,no-resolve
 IP-CIDR,74.125.247.128/32,no-resolve
 IP-CIDR,142.250.82.0/24,no-resolve
