@@ -1,11 +1,13 @@
 # NAME: Microsoft 365 Worldwide (+GCC)
 # REPO: https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
-# UPDATED: 2026-03-10 09:48:47
-# DOMAIN: 121
-# DOMAIN-SUFFIX: 84
-# IP-CIDR: 34
-# IP-CIDR6: 59
-# TOTAL: 298
+# UPDATED: 2026-03-11 19:49
+
+# Manually Removed
+# DOMAIN-SUFFIX,microsoft.com
+# DOMAIN-SUFFIX,office.com
+# DOMAIN-SUFFIX,wns.windows.com
+# DOMAIN,crl.microsoft.com
+
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,microsoftpersonalcontent.com
@@ -27,7 +29,6 @@ DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,search.production.apac.trafficmanager.net
 DOMAIN-SUFFIX,search.production.emea.trafficmanager.net
 DOMAIN-SUFFIX,search.production.us.trafficmanager.net
-DOMAIN-SUFFIX,wns.windows.com
 DOMAIN-SUFFIX,sharepointonline.com
 DOMAIN-SUFFIX,svc.ms
 DOMAIN-SUFFIX,lync.com
@@ -40,7 +41,6 @@ DOMAIN-SUFFIX,officeapps.live.com
 DOMAIN-SUFFIX,online.office.com
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,onenote.com
-DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,cdn.onenote.net
 DOMAIN-SUFFIX,auth.microsoft.com
 DOMAIN-SUFFIX,msftidentity.com
@@ -82,7 +82,6 @@ DOMAIN-SUFFIX,symcb.com
 DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,verisign.com
 DOMAIN-SUFFIX,verisign.net
-DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,microsoftusercontent.com
 DOMAIN-SUFFIX,azure-apim.net
 DOMAIN-SUFFIX,flow.microsoft.com
@@ -161,7 +160,6 @@ DOMAIN,officepreviewredir.microsoft.com
 DOMAIN,officeredir.microsoft.com
 DOMAIN,r.office.microsoft.com
 DOMAIN,activation.sls.microsoft.com
-DOMAIN,crl.microsoft.com
 DOMAIN,office15client.microsoft.com
 DOMAIN,go.microsoft.com
 DOMAIN,cdn.odc.officeapps.live.com
@@ -303,3 +301,4 @@ IP-CIDR6,2a01:111:f100:a004::bfeb:88cf/128,no-resolve
 IP-CIDR6,2a01:111:f400::/48,no-resolve
 IP-CIDR6,2a01:111:f402::/48,no-resolve
 IP-CIDR6,2a01:111:f403::/48,no-resolve
+
