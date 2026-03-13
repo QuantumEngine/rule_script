@@ -8,7 +8,7 @@
 ### 1. 域名泛化与“防误伤”机制 (Cautious Simplification)
 - **谨慎简化**：仅在确保该后缀下所有二级/三级域名均属于同一服务且路由意图一致时，才使用 `DOMAIN-SUFFIX`。
 - **避免过度匹配**：严禁将后缀简化到可能引起“国内外混淆”的程度。
-  - *举例*：严禁仅使用 `DOMAIN-SUFFIX,people`。因为它会同时命中 `people.com`（海外/需代理）和 `people.com.cn`（国内/需直连）。
+  - *举例*：严禁仅使用 `DOMAIN-KEYWORD,people`。因为它会同时命中 `people.com`（海外/需代理）和 `people.com.cn`（国内/需直连）。
   - *准则*：对于此类情况，必须保留完整后缀，分别书写为 `DOMAIN-SUFFIX,people.com`。
 - **顶级域名保护**：除非该服务拥有专属顶级域名（如 `.google`），否则原则上域名规则应至少保留至二级域名（如 `brand.com`）。
 
@@ -39,5 +39,6 @@
 # DOMAIN-SUFFIX: [数量]
 # IP-CIDR: [数量]
 # TOTAL: [总计]
+
 
 [规则主体...]
