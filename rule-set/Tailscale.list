@@ -17,12 +17,13 @@ IP-CIDR,100.64.0.0/10,no-resolve
 IP-CIDR6,fd7a:115c:a1e0::/48,no-resolve
 
 # 官方静态服务网段 (Underlay: 控制平面与日志)
-IP-CIDR,192.200.0.0/24,no-resolve
-IP-CIDR6,2606:b740:49::/48,no-resolve
-IP-CIDR,199.165.136.0/24,no-resolve
-IP-CIDR6,2606:b740:1::/48,no-resolve
+IP-CIDR,192.200.0.0/24
+IP-CIDR6,2606:b740:49::/48
+IP-CIDR,199.165.136.0/24
+IP-CIDR6,2606:b740:1::/48
 
 # 官方核心域名 (涵盖所有 derpN-all 节点与内网 MagicDNS)
 DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,tailscale.com
+
 
