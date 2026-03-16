@@ -1,0 +1,45 @@
+# NAME: 中国大陆顶级 ASN
+# REPO: https://github.com/QuantumEngine
+# UPDATED: 2026-03-16 11:00
+
+# 🇨🇳 IPv4/IPv6 中国基础电信与二级运营商 ASN
+IP-ASN,4134,no-resolve   # 中国电信 163 骨干网
+# AS4809 CN2 已移除（骨干含海外 PoP，属混合 ASN）
+IP-ASN,4837,no-resolve   # 中国联通 169 骨干网
+IP-ASN,9808,no-resolve   # 中国移动骨干网
+IP-ASN,9394,no-resolve   # 中国铁通（移动附属）
+IP-ASN,146788,no-resolve # 中国广电 CBN 骨干网（CHINA-BROADNET，IPv6: 240A:4000::/21）
+IP-ASN,4538,no-resolve   # 教育网 CERNET
+IP-ASN,7497,no-resolve   # 科技网 CSTNET
+
+# 📡 中国移动各省分公司子 ASN
+IP-ASN,56040,no-resolve  # 中国移动广东 CMNET-GuangDong
+IP-ASN,56041,no-resolve  # 中国移动集团子 ASN
+IP-ASN,56044,no-resolve  # 中国移动集团子 ASN
+
+# 🛒 阿里云 / 淘宝 / 高德 / 优酷（Alibaba，仅大陆节点）
+IP-ASN,37963,no-resolve  # 阿里云（中国大陆）
+# AS45102 已移除（阿里云国际/香港，海外节点）
+IP-ASN,24429,no-resolve  # 浙江淘宝 / 阿里 CDN（大陆）
+IP-ASN,55990,no-resolve  # 阿里云（华北节点）
+IP-ASN,140203,no-resolve # 阿里云（大陆部分节点）
+
+# 🐧 腾讯云 / 微信 / QQ / 王者荣耀（Tencent，仅大陆节点）
+IP-ASN,45090,no-resolve  # 腾讯云 / 腾讯网络（中国大陆）
+# AS132203 已移除（腾讯云海外/国际）
+# AS132525 已移除（CMIN2 AS-SET 成员，含国际路由，混合）
+# AS133111 已移除（腾讯 CDN，含海外节点，混合）
+
+# 🐾 百度云 / 贴吧 / 爱奇艺 / 百度地图（Baidu）
+IP-ASN,38365,no-resolve  # 百度骨干网（大陆）
+IP-ASN,55967,no-resolve  # 百度云 / 百度 IDC（大陆）
+
+# ☁️ 华为云 / 华为商城 / 鸿蒙云服务（Huawei）
+IP-ASN,136907,no-resolve # 华为云（核心，大陆）
+IP-ASN,138239,no-resolve # 华为云（附属节点，大陆）
+
+# 🛍️ 京东 / 美团 / 快手（JD, Meituan, Kuaishou）
+IP-ASN,135377,no-resolve # 京东 JD Cloud（国内）
+# AS137943 已移除（京东香港/国际节点）
+IP-ASN,137872,no-resolve # 美团 Meituan（大陆）
+IP-ASN,139591,no-resolve # 快手 Kuaishou（大陆）
