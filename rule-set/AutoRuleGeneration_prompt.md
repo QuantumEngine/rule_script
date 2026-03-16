@@ -25,7 +25,7 @@
 
 ### 4. 排序要求
 请按以下顺序排列：
-1. `DOMAIN` -> 2. `DOMAIN-SUFFIX` -> 3. `DOMAIN-KEYWORD` -> 4. `IP-CIDR/IP-CIDR6` -> 5. `PROCESS-NAME`
+1. `PROCESS-NAME` -> 2. `DOMAIN-SUFFIX` -> 3. `DOMAIN-KEYWORD` -> 4. `IP-CIDR/IP-CIDR6` -> 5. `DOMAIN`
 
 ---
 
