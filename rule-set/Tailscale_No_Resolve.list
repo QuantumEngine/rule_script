@@ -4,14 +4,6 @@
 # REPO1: https://tailscale.com/docs/integrations/firewalls
 # UPDATED: 2026-03-11 20:25
 
-# 进程级规则 (彻底放行 STUN 与动态端口直连)
-PROCESS-NAME,tailscaled.exe
-PROCESS-NAME,tailscale.exe
-PROCESS-NAME,tailscale-ipn.exe
-PROCESS-NAME,tailscaled
-PROCESS-NAME,Tailscale
-PROCESS-NAME,io.tailscale.ipn.macsys.network-extension
-
 # 官方核心域名 (涵盖所有 derpN-all 节点与内网 MagicDNS)
 DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,tailscale.com
