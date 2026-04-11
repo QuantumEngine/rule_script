@@ -8,6 +8,7 @@ DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,clau.de
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
 IP-CIDR,160.79.104.0/23,no-resolve
